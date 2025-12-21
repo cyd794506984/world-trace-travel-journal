@@ -1,0 +1,447 @@
+{
+  "@@locale": "de",
+  "app_title": "WorldTrace",
+  "home_title": "WorldTrace",
+  "drawer_home": "Startseite / Dashboard",
+  "drawer_world_map": "Weltkarte",
+  "drawer_trips": "Ausflüge",
+  "drawer_stats": "Statistiken",
+  "drawer_goals": "Ziele",
+  "drawer_profile": "Reiseprofil",
+  "drawer_account": "Konto / Einstellungen",
+  "gallery_title": "Galerie",
+  "gallery_nav_label": "Galerie",
+  "gallery_profile_cta": "Alle Fotos ansehen",
+  "gallery_empty_title": "Noch keine Fotos",
+  "gallery_empty_message": "Fügen Sie Medien zu Ihren Reisen hinzu und diese werden hier angezeigt.",
+  "trips_title": "Ausflüge",
+  "trip_detail_timeline": "Zeitleiste",
+  "trip_detail_empty_steps_message": "Noch keine Schritte. Beginnen Sie Ihre Reisegeschichte mit der ersten Notiz.",
+  "trip_detail_day_header_steps": "{count} Schritte",
+  "@trip_detail_day_header_steps": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "trip_detail_days_chip": "{count, plural, one {{count} Tag} other {{count} Tage}}",
+  "@trip_detail_days_chip": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "trip_detail_section_timeline": "Zeitleiste",
+  "trip_detail_section_photos_trip": "Fotos",
+  "trip_edit_title_new": "Neue Reise",
+  "trip_edit_title_edit": "Reise bearbeiten",
+  "trip_edit_button_save": "Speichern",
+  "trip_edit_button_create": "Erstellen",
+  "trip_edit_field_country_iso_label": "Länder-ISO-Code",
+  "trip_edit_field_country_iso_help": "Z. B. JP, US, IT",
+  "trip_edit_field_name_label": "Reisename",
+  "trip_edit_field_notes_label": "Notizen (optional)",
+  "trip_edit_button_start_date": "Startdatum",
+  "trip_edit_button_end_date": "Enddatum",
+  "trip_editor_new_title": "Neue Reise",
+  "trip_editor_edit_title": "Reise bearbeiten",
+  "trip_editor_field_country_label": "Länder-ISO",
+  "trip_editor_field_country_helper": "Z. B. JP, US, IT",
+  "trip_editor_field_name_label": "Reisename",
+  "trip_editor_field_description_label": "Notizen (optional)",
+  "trip_editor_field_start_date_label": "Startdatum",
+  "trip_editor_field_end_date_label": "Enddatum",
+  "trip_editor_date_range_days": "{days} Tage",
+  "@trip_editor_date_range_days": {
+    "placeholders": {
+      "days": {}
+    }
+  },
+  "trip_editor_error_country_required": "Bitte geben Sie einen Länder-ISO-Code ein.",
+  "trip_editor_error_name_required": "Bitte geben Sie einen Reisenamen ein.",
+  "trip_editor_error_dates_required": "Bitte wählen Sie sowohl ein Start- als auch ein Enddatum aus.",
+  "trip_editor_error_date_order": "Das Enddatum darf nicht vor dem Startdatum liegen.",
+  "trip_editor_save_button": "Reise speichern",
+  "step_menu_edit": "Schritt bearbeiten",
+  "step_menu_delete": "Schritt löschen",
+  "step_delete_confirm_title": "Schritt löschen?",
+  "step_delete_confirm_body": "Dieser Hinweis wird aus der Reisezeitleiste entfernt.",
+  "step_editor_add_title": "Neuer Schritt",
+  "step_editor_edit_title": "Schritt bearbeiten",
+  "step_editor_field_description_label": "Schrittbeschreibung",
+  "step_editor_field_place_label": "Ortsname (optional)",
+  "step_editor_field_date_time_label": "Datum und Uhrzeit: {value}",
+  "@step_editor_field_date_time_label": {
+    "placeholders": {
+      "value": {}
+    }
+  },
+  "step_editor_hint_diary": "Schreiben Sie über diesen Moment...",
+  "step_editor_header_add_place_hint": "Fügen Sie hinzu, wo Sie sind",
+  "step_editor_place_hint": "Stadt, Ort oder Wahrzeichen",
+  "step_editor_button_add_photos": "Fügen Sie Fotos hinzu",
+  "step_editor_photos_selected": "{count} Fotos ausgewählt",
+  "@step_editor_photos_selected": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "step_editor_error_pick_images": "Fehler beim Auswählen von Bildern.",
+  "step_editor_error_empty_description": "Bitte fügen Sie eine kurze Beschreibung für diesen Schritt hinzu.",
+  "step_media_add_web_unsupported": "Das Hinzufügen von Fotos wird nur auf Mobilgeräten und Desktops unterstützt.",
+  "generic_error_saving_step": "Der Schritt kann nicht gespeichert werden. Bitte versuchen Sie es erneut.",
+  "fab_add_step_tooltip": "Schritt hinzufügen",
+  "fab_add_step_upgrade_tooltip": "Upgrade auf Pro",
+  "plan_limit_steps_reached_message": "Sie haben das Limit von {steps} Schritten pro Fahrt im kostenlosen Plan erreicht. Führen Sie ein Upgrade auf Pro durch, um mit dem Journaling fortzufahren.",
+  "@plan_limit_steps_reached_message": {
+    "placeholders": {
+      "steps": {}
+    }
+  },
+  "plan_limit_steps_reached_generic": "Sie haben die maximale Anzahl an Schritten für diesen Plan erreicht. Führen Sie ein Upgrade auf Pro durch, um mit dem Journaling fortzufahren.",
+  "btn_add_step": "Schritt hinzufügen",
+  "btn_save": "Speichern",
+  "btn_cancel": "Stornieren",
+  "btn_delete": "Löschen",
+  "on_this_day_title": "An diesem Tag",
+  "on_this_day_empty": "An diesem Tag wurde noch keine Fahrt aufgezeichnet.",
+  "stats_title": "Globales Dashboard",
+  "stats_sign_in_prompt": "Bitte melden Sie sich an, um Statistiken anzuzeigen.",
+  "stats_highlights_title": "Höhepunkte",
+  "stats_metric_trips_logged": "Fahrten protokolliert",
+  "stats_metric_travel_heavy_year": "Reiselastiges Jahr",
+  "stats_metric_travel_heavy_year_value": "{year} - {days} Tage",
+  "@stats_metric_travel_heavy_year_value": {
+    "placeholders": {
+      "year": {},
+      "days": {}
+    }
+  },
+  "stats_value_not_available": "Nicht verfügbar",
+  "stats_empty_message": "Fügen Sie Ihre erste Reise hinzu, um Statistiken freizuschalten.",
+  "stats_highlight_average_days": "Durchschnittliche Tage pro Reise",
+  "stats_highlight_longest_trip": "Längste Reise",
+  "stats_highlight_longest_trip_value": "{days} Tage – {destination}",
+  "@stats_highlight_longest_trip_value": {
+    "placeholders": {
+      "days": {},
+      "destination": {}
+    }
+  },
+  "stats_highlight_recent_trip": "Letzte Reise",
+  "stats_highlight_recent_trip_value": "{destination} - {date}",
+  "@stats_highlight_recent_trip_value": {
+    "placeholders": {
+      "destination": {},
+      "date": {}
+    }
+  },
+  "goals_title": "Reiseziele",
+  "goals_new_goal_button": "Neues Ziel",
+  "goals_dialog_title": "Ziel erstellen",
+  "goals_field_title_label": "Titel",
+  "goals_field_year_label": "Jahr",
+  "goals_field_target_label": "Zielländer",
+  "goals_delete_tooltip": "Ziel löschen",
+  "goals_card_year_label": "Jahr {year}",
+  "@goals_card_year_label": {
+    "placeholders": {
+      "year": {}
+    }
+  },
+  "goals_card_progress_label": "{current} / {target} Länder besucht",
+  "@goals_card_progress_label": {
+    "placeholders": {
+      "current": {},
+      "target": {}
+    }
+  },
+  "goals_empty_title": "Noch keine Ziele",
+  "goals_empty_description": "Legen Sie Ihr jährliches Länderziel fest und wir verfolgen Ihren Fortschritt automatisch.",
+  "goals_empty_cta": "Erstellen Sie ein Ziel",
+  "account_title": "Konto",
+  "plan_free": "WorldTrace Kostenlos",
+  "plan_upgrade": "Upgrade auf Pro",
+  "year_in_review_title": "Jahresrückblick",
+  "trip_story_title": "Reisegeschichte",
+  "home_sign_in_prompt": "Bitte melden Sie sich an oder fahren Sie als Gast fort, um mit der Verfolgung Ihrer Reisen zu beginnen.",
+  "generic_error": "Fehler: {error}",
+  "@generic_error": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "no_trips_yet": "Noch keine Reisen.",
+  "stat_countries_visited": "Länder besucht",
+  "stat_days_abroad": "Tage im Ausland",
+  "stat_last_trip": "Letzte Reise",
+  "on_this_day_label": "An diesem Tag: {date}",
+  "@on_this_day_label": {
+    "placeholders": {
+      "date": {}
+    }
+  },
+  "btn_open_trip": "Offene Reise",
+  "country_sheet_days": "Tage: {count}",
+  "@country_sheet_days": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "country_sheet_trips": "Fahrten: {count}",
+  "@country_sheet_trips": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "country_sheet_view_trips": "Sehen Sie sich Reisen in diesem Land an",
+  "country_sheet_add_trip": "Reise hinzufügen",
+  "country_sheet_no_photos_title": "Noch keine Fotos hier",
+  "country_sheet_no_photos_message": "Fügen Sie Medien zu Ihren Reisen hinzu und diese werden hier angezeigt.",
+  "country_overview_subtitle": "Länderübersicht",
+  "country_overview_label_trips": "Ausflüge",
+  "country_overview_label_days": "Tage",
+  "country_overview_label_steps": "Schritte",
+  "country_overview_label_photos": "Fotos",
+  "country_overview_label_last_visited": "Zuletzt besucht",
+  "country_overview_last_visited_never": "Nie besucht",
+  "country_overview_empty_trips_message": "Fügen Sie Ihre erste Reise in diesem Land hinzu, um Erkenntnisse zu gewinnen.",
+  "country_overview_action_view_trips": "Reisen ansehen",
+  "country_overview_action_add_trip": "Fügen Sie eine Reise hinzu",
+  "country_overview_action_close": "Schließen",
+  "guest_user": "Gastbenutzer",
+  "plan_active": "Aktiver Plan",
+  "auth_welcome": "Willkommen bei WorldTrace",
+  "auth_login": "Einloggen",
+  "auth_signup": "Melden Sie sich an",
+  "auth_continue_guest": "Als Gast fortfahren",
+  "trip_deleted": "Reise gelöscht.",
+  "trip_menu_delete": "Reise löschen",
+  "trip_delete_confirm_title": "Diese Reise löschen?",
+  "trip_delete_confirm_body": "Die Reise und alle ihre Schritte werden dauerhaft entfernt.",
+  "trip_delete_missing_id_error": "Eine Reise ohne ID kann nicht gelöscht werden.",
+  "menu_open_details": "Details öffnen",
+  "menu_delete_trip": "Reise löschen",
+  "tooltip_add_trip": "Reise hinzufügen",
+  "drawer_achievements": "Erfolge",
+  "achievements_sign_in_prompt": "Melden Sie sich an, um Ihre Erfolge anzuzeigen.",
+  "year_in_review_share_tooltip": "Teilen Sie die Jahresgeschichte",
+  "year_in_review_sign_in_prompt": "Melden Sie sich an, um Ihren Jahresrückblick zu sehen.",
+  "year_in_review_no_trips": "Fügen Sie ein paar Reisen hinzu, um Ihre Bewertung freizuschalten.",
+  "year_in_review_no_data_for_year": "Rezension für dieses Jahr nicht verfügbar.",
+  "year_in_review_map_title": "Reisekarte {year}",
+  "@year_in_review_map_title": {
+    "placeholders": {
+      "year": {}
+    }
+  },
+  "year_in_review_story_title": "Ihr {year} auf Reisen",
+  "@year_in_review_story_title": {
+    "placeholders": {
+      "year": {}
+    }
+  },
+  "year_in_review_story_summary": "{days} Tage – {trips} Reisen – {countries} Länder",
+  "@year_in_review_story_summary": {
+    "placeholders": {
+      "days": {},
+      "trips": {},
+      "countries": {}
+    }
+  },
+  "year_in_review_longest_trip": "Längste Reise",
+  "year_in_review_longest_trip_value": "{title} - {days} Tage",
+  "@year_in_review_longest_trip_value": {
+    "placeholders": {
+      "title": {},
+      "days": {}
+    }
+  },
+  "year_in_review_top_country": "Top Land",
+  "year_in_review_top_country_value": "{country} - {days} Tage",
+  "@year_in_review_top_country_value": {
+    "placeholders": {
+      "country": {},
+      "days": {}
+    }
+  },
+  "year_in_review_no_photo_highlights": "Noch keine Foto-Highlights",
+  "year_in_review_no_achievements": "(Noch) keine Erfolge freigeschaltet.",
+  "year_in_review_unlocked_achievements": "Freigeschaltete Erfolge",
+  "year_in_review_render_error": "Das Bild kann nicht generiert werden.",
+  "year_in_review_encode_error": "Fehler beim Erstellen des Bildes.",
+  "year_in_review_share_message": "Mein {year} auf Reisen mit WorldTrace",
+  "@year_in_review_share_message": {
+    "placeholders": {
+      "year": {}
+    }
+  },
+  "year_in_review_share_failed": "Freigabe fehlgeschlagen: {error}",
+  "@year_in_review_share_failed": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "trip_story_share_tooltip": "Geschichte teilen",
+  "trip_story_share_render_error": "Die Geschichte kann nicht generiert werden.",
+  "trip_story_share_image_error": "Fehler beim Erstellen des Bildes.",
+  "trip_story_share_message": "Meine Reise in {country} mit WorldTrace",
+  "@trip_story_share_message": {
+    "placeholders": {
+      "country": {}
+    }
+  },
+  "trip_story_share_failed": "Freigabe fehlgeschlagen: {error}",
+  "@trip_story_share_failed": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "trip_story_stat_steps": "Schritte",
+  "trip_story_stat_photos": "Fotos",
+  "trip_story_stat_days": "Tage",
+  "settings_profile_section_title": "Profil",
+  "settings_plan_section_title": "WorldTrace-Plan",
+  "settings_logout_button": "Abmelden",
+  "plan_pro": "__MARKE__ Pro",
+  "settings_plan_description_pro": "Unbegrenzte Zeitpläne und Premium-Reisetools.",
+  "settings_plan_description_free": "Bis zu {steps} Schritte pro Fahrt. Führen Sie ein Upgrade auf Pro durch, um unbegrenzte Zeitleisten und erweiterte Statistiken freizuschalten.",
+  "@settings_plan_description_free": {
+    "placeholders": {
+      "steps": {}
+    }
+  },
+  "profile_birthdate_label": "Geboren am {date}",
+  "@profile_birthdate_label": {
+    "placeholders": {
+      "date": {}
+    }
+  },
+  "profile_birthdate_not_set": "Nicht festgelegt",
+  "profile_edit_button": "Profil bearbeiten",
+  "profile_edit_title": "Profil bearbeiten",
+  "profile_photo_change": "Foto ändern",
+  "profile_photo_remove": "Foto entfernen",
+  "profile_first_name_label": "Vorname",
+  "profile_last_name_label": "Nachname",
+  "profile_birthdate_title": "Geburtsdatum",
+  "profile_birthdate_pick": "Wählen",
+  "plan_support_thanks": "Vielen Dank für die Unterstützung von WorldTrace!",
+  "profile_plan_section_title": "Planen",
+  "profile_plan_current_pro": "Aktueller Plan: Pro – unbegrenzte Schritte pro Fahrt.",
+  "profile_plan_current_free": "Aktueller Plan: Kostenlos – bis zu {steps} Schritte pro Fahrt.",
+  "@profile_plan_current_free": {
+    "placeholders": {
+      "steps": {}
+    }
+  },
+  "profile_sign_in_prompt": "Melden Sie sich an, um Ihr Reiseprofil anzuzeigen.",
+  "profile_no_data": "Keine Daten verfügbar.",
+  "profile_travel_summary_title": "Reisezusammenfassung",
+  "profile_stat_trips": "Ausflüge",
+  "profile_stat_countries": "Länder",
+  "profile_stat_days": "Tage",
+  "profile_top_year_text": "Intensivstes Jahr: {year} - {days} Tage",
+  "@profile_top_year_text": {
+    "placeholders": {
+      "year": {},
+      "days": {}
+    }
+  },
+  "profile_top_year_empty": "Beginnen Sie mit der Protokollierung Ihrer Reisen, um jährliche Statistiken freizuschalten.",
+  "profile_achievements_title": "Erfolge",
+  "profile_see_all": "Alle anzeigen",
+  "profile_achievements_progress": "Freigeschaltete Erfolge: {unlocked} von {total}",
+  "@profile_achievements_progress": {
+    "placeholders": {
+      "unlocked": {},
+      "total": {}
+    }
+  },
+  "profile_goals_title": "Ziele",
+  "profile_goals_manage": "Verwalten",
+  "profile_goals_empty": "Legen Sie hier ein jährliches Länderziel fest, um Ihren Fortschritt zu verfolgen.",
+  "profile_goal_progress_label": "Jahr {year} - {current}/{target} Länder",
+  "@profile_goal_progress_label": {
+    "placeholders": {
+      "year": {},
+      "current": {},
+      "target": {}
+    }
+  },
+  "profile_view_year_button": "Sehen Sie Ihr Jahr",
+  "profile_share_button": "Teile mein Profil",
+  "profile_share_no_trips": "Ich fange an, meine Reisen mit WorldTrace zu verfolgen. Folge mir auf meinem nächsten Abenteuer!",
+  "profile_share_stats": "Ich habe {trips} Reisen protokolliert, {countries} Länder besucht und {days} Tage damit verbracht, mit WorldTrace zu reisen.",
+  "@profile_share_stats": {
+    "placeholders": {
+      "trips": {},
+      "countries": {},
+      "days": {}
+    }
+  },
+  "profile_share_top_year": "Mein intensivstes Jahr war {year} mit {days} Tagen unterwegs.",
+  "@profile_share_top_year": {
+    "placeholders": {
+      "year": {},
+      "days": {}
+    }
+  },
+  "step_detail_section_story": "Geschichte",
+  "step_detail_story_empty": "Für diesen Schritt wurde keine Story hinzugefügt.",
+  "step_detail_section_photos": "Fotos",
+  "step_detail_action_share": "Aktie",
+  "step_media_web_unsupported": "Das Teilen von Bildern wird im Web nicht unterstützt.",
+  "step_media_image_missing": "Bild wurde auf diesem Gerät nicht gefunden.",
+  "step_media_share_text": "Ein Schnappschuss von meiner Reise mit WorldTrace",
+  "step_media_share_failed": "Dieses Bild kann nicht geteilt werden.",
+  "step_media_title": "Foto {current}/{total}",
+  "@step_media_title": {
+    "placeholders": {
+      "current": {},
+      "total": {}
+    }
+  },
+  "step_media_share_tooltip": "Aktie",
+  "upgrade_title": "Schalten Sie WorldTrace Pro frei",
+  "upgrade_headline": "Upgraden Sie ohne Grenzen",
+  "upgrade_description": "Gehen Sie Pro, um Ihre Geschichten weiterhin mit unbegrenzten Zeitplänen und reiseorientierten Tools zu erzählen.",
+  "upgrade_benefit_unlimited_steps": "Keine Schrittbegrenzung pro Fahrt",
+  "upgrade_benefit_advanced_stats": "Erweiterte Statistiken und Ziele (in Kürze verfügbar)",
+  "upgrade_benefit_heavy_users": "Gebaut für schwere Reisende",
+  "upgrade_benefit_early_access": "Frühzeitiger Zugriff auf experimentelle Funktionen",
+  "upgrade_success_message": "WorldTrace Pro aktiviert!",
+  "upgrade_maybe_later": "Vielleicht später",
+  "home_welcome_title": "Willkommen",
+  "home_next_trip_prompt": "Sind Sie bereit, Ihre nächste Reise zu protokollieren?",
+  "world_map_sign_in_prompt": "Melden Sie sich an oder fahren Sie als Gast fort, um Ihre Reisekarte anzuzeigen.",
+  "world_map_empty_message": "Fügen Sie Ihre erste Reise hinzu, um die Karte anzuzeigen.",
+  "trip_story_open_failed": "Die Reisegeschichte kann nicht geöffnet werden: {error}",
+  "photo_viewer_web_unsupported": "Die Anzeige von Fotos im Vollbildmodus wird nur auf Mobilgeräten und Desktops unterstützt.",
+  "onboarding_track_countries_title": "Verfolgen Sie Länder",
+  "onboarding_track_countries_subtitle": "Fügen Sie Reisen, Erinnerungen und Statistiken hinzu",
+  "onboarding_set_goals_title": "Setzen Sie sich Ziele",
+  "onboarding_set_goals_subtitle": "Erstellen Sie Ziele wie „30 Länder bis 2030“",
+  "onboarding_share_remember_title": "Teilen und erinnern",
+  "onboarding_share_remember_subtitle": "Erstellen Sie gemeinsam nutzbare Karten Ihrer Reisen",
+  "achievement_first_trip_title": "Erste Fahrt protokolliert",
+  "achievement_first_trip_description": "Tragen Sie Ihre allererste Reise in WorldTrace ein.",
+  "achievement_five_trips_title": "Fünf-Reise-Club",
+  "achievement_five_trips_description": "Erreichen Sie fünf Fahrten, die in Ihrem Tagebuch aufgezeichnet sind.",
+  "achievement_ten_trips_title": "Meilenstein von zehn Reisen",
+  "achievement_ten_trips_description": "Planen und protokollieren Sie mindestens zehn Abenteuer.",
+  "achievement_five_countries_title": "Weltenbummler I",
+  "achievement_five_countries_description": "Besuchen Sie fünf verschiedene Länder.",
+  "achievement_ten_countries_title": "Globetrotter II",
+  "achievement_ten_countries_description": "Erreichen Sie zehn einzigartige Länder.",
+  "achievement_thirty_days_title": "30 Tage im Jahr",
+  "achievement_thirty_days_description": "Verbringen Sie mehr als 30 Tage im selben Jahr auf Reisen.",
+  "achievement_hundred_days_title": "100 Tage unterwegs",
+  "achievement_hundred_days_description": "Sammeln Sie insgesamt einhundert Reisetage.",
+  "@trip_story_open_failed": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "auth_continue_email": "Weiter mit email",
+  "auth_continue_google": "Weiter mit Google",
+  "auth_continue_facebook": "Weiter mit Facebook"
+}

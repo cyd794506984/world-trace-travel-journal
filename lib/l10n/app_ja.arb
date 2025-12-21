@@ -1,0 +1,447 @@
+{
+  "@@locale": "ja",
+  "app_title": "WorldTrace",
+  "home_title": "WorldTrace",
+  "drawer_home": "ホーム / ダッシュボード",
+  "drawer_world_map": "世界地図",
+  "drawer_trips": "旅行",
+  "drawer_stats": "統計",
+  "drawer_goals": "目標",
+  "drawer_profile": "旅行プロフィール",
+  "drawer_account": "アカウント設定",
+  "gallery_title": "ギャラリー",
+  "gallery_nav_label": "ギャラリー",
+  "gallery_profile_cta": "すべての写真を見る",
+  "gallery_empty_title": "写真はまだありません",
+  "gallery_empty_message": "旅行にメディアを追加すると、ここに表示されます。",
+  "trips_title": "旅行",
+  "trip_detail_timeline": "タイムライン",
+  "trip_detail_empty_steps_message": "まだ手順はありません。最初のメモから旅行のストーリーを始めましょう。",
+  "trip_detail_day_header_steps": "{count} ステップ",
+  "@trip_detail_day_header_steps": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "trip_detail_days_chip": "{count, plural, one {{count} 日} other {{count} 日}}",
+  "@trip_detail_days_chip": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "trip_detail_section_timeline": "タイムライン",
+  "trip_detail_section_photos_trip": "写真",
+  "trip_edit_title_new": "新しい旅",
+  "trip_edit_title_edit": "旅行を編集する",
+  "trip_edit_button_save": "保存",
+  "trip_edit_button_create": "作成する",
+  "trip_edit_field_country_iso_label": "国別 ISO コード",
+  "trip_edit_field_country_iso_help": "例: JP, US, IT",
+  "trip_edit_field_name_label": "旅行名",
+  "trip_edit_field_notes_label": "注記 (オプション)",
+  "trip_edit_button_start_date": "開始日",
+  "trip_edit_button_end_date": "終了日",
+  "trip_editor_new_title": "新しい旅",
+  "trip_editor_edit_title": "旅行を編集する",
+  "trip_editor_field_country_label": "国 ISO",
+  "trip_editor_field_country_helper": "例: JP, US, IT",
+  "trip_editor_field_name_label": "旅行名",
+  "trip_editor_field_description_label": "注記 (オプション)",
+  "trip_editor_field_start_date_label": "開始日",
+  "trip_editor_field_end_date_label": "終了日",
+  "trip_editor_date_range_days": "{days}日",
+  "@trip_editor_date_range_days": {
+    "placeholders": {
+      "days": {}
+    }
+  },
+  "trip_editor_error_country_required": "国の ISO コードを入力してください。",
+  "trip_editor_error_name_required": "旅行名を入力してください。",
+  "trip_editor_error_dates_required": "開始日と終了日の両方を選択してください。",
+  "trip_editor_error_date_order": "終了日を開始日より前にすることはできません。",
+  "trip_editor_save_button": "旅行を保存する",
+  "step_menu_edit": "ステップの編集",
+  "step_menu_delete": "ステップの削除",
+  "step_delete_confirm_title": "ステップを削除しますか?",
+  "step_delete_confirm_body": "このメモは旅行タイムラインから削除されます。",
+  "step_editor_add_title": "新たな一歩",
+  "step_editor_edit_title": "ステップの編集",
+  "step_editor_field_description_label": "ステップの説明",
+  "step_editor_field_place_label": "地名（任意）",
+  "step_editor_field_date_time_label": "日付と時刻: {value}",
+  "@step_editor_field_date_time_label": {
+    "placeholders": {
+      "value": {}
+    }
+  },
+  "step_editor_hint_diary": "この瞬間について書きます...",
+  "step_editor_header_add_place_hint": "現在地を追加",
+  "step_editor_place_hint": "都市、場所、ランドマーク",
+  "step_editor_button_add_photos": "写真を追加する",
+  "step_editor_photos_selected": "{count} 枚の写真が選択されました",
+  "@step_editor_photos_selected": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "step_editor_error_pick_images": "画像の選択中にエラーが発生しました。",
+  "step_editor_error_empty_description": "このステップの簡単な説明を追加してください。",
+  "step_media_add_web_unsupported": "写真の追加はモバイルとデスクトップでのみサポートされています。",
+  "generic_error_saving_step": "ステップを保存できません。もう一度試してください。",
+  "fab_add_step_tooltip": "ステップの追加",
+  "fab_add_step_upgrade_tooltip": "Pro にアップグレードする",
+  "plan_limit_steps_reached_message": "無料プランでは 1 回の旅行あたりの制限 {steps} 歩に達しました。ジャーナリングを続けるには、Pro にアップグレードしてください。",
+  "@plan_limit_steps_reached_message": {
+    "placeholders": {
+      "steps": {}
+    }
+  },
+  "plan_limit_steps_reached_generic": "このプランのステップ数の制限に達しました。ジャーナリングを続けるには、Pro にアップグレードしてください。",
+  "btn_add_step": "ステップの追加",
+  "btn_save": "保存",
+  "btn_cancel": "キャンセル",
+  "btn_delete": "消去",
+  "on_this_day_title": "この日は",
+  "on_this_day_empty": "この日の旅行はまだ記録されていません。",
+  "stats_title": "グローバルダッシュボード",
+  "stats_sign_in_prompt": "統計を確認するにはサインインしてください。",
+  "stats_highlights_title": "ハイライト",
+  "stats_metric_trips_logged": "記録された旅行",
+  "stats_metric_travel_heavy_year": "旅行の多い年",
+  "stats_metric_travel_heavy_year_value": "{year} ～ {days} 日",
+  "@stats_metric_travel_heavy_year_value": {
+    "placeholders": {
+      "year": {},
+      "days": {}
+    }
+  },
+  "stats_value_not_available": "利用不可",
+  "stats_empty_message": "最初の旅行を追加して統計のロックを解除します。",
+  "stats_highlight_average_days": "1 回の旅行あたりの平均日数",
+  "stats_highlight_longest_trip": "最長の旅行",
+  "stats_highlight_longest_trip_value": "{days} 日 - {destination}",
+  "@stats_highlight_longest_trip_value": {
+    "placeholders": {
+      "days": {},
+      "destination": {}
+    }
+  },
+  "stats_highlight_recent_trip": "最近の旅行",
+  "stats_highlight_recent_trip_value": "{destination} - {date}",
+  "@stats_highlight_recent_trip_value": {
+    "placeholders": {
+      "destination": {},
+      "date": {}
+    }
+  },
+  "goals_title": "旅行の目標",
+  "goals_new_goal_button": "新しい目標",
+  "goals_dialog_title": "目標を作成する",
+  "goals_field_title_label": "タイトル",
+  "goals_field_year_label": "年",
+  "goals_field_target_label": "対象国",
+  "goals_delete_tooltip": "目標の削除",
+  "goals_card_year_label": "{year}年",
+  "@goals_card_year_label": {
+    "placeholders": {
+      "year": {}
+    }
+  },
+  "goals_card_progress_label": "{current} / {target} か国を訪問しました",
+  "@goals_card_progress_label": {
+    "placeholders": {
+      "current": {},
+      "target": {}
+    }
+  },
+  "goals_empty_title": "まだ目標はありません",
+  "goals_empty_description": "年間の国別目標を設定すると、進捗状況が自動的に追跡されます。",
+  "goals_empty_cta": "目標を作成する",
+  "account_title": "アカウント",
+  "plan_free": "__ブランド__ 無料",
+  "plan_upgrade": "Pro にアップグレードする",
+  "year_in_review_title": "一年の振り返り",
+  "trip_story_title": "トリップストーリー",
+  "home_sign_in_prompt": "旅行の追跡を開始するには、サインインするか、ゲストとして続行してください。",
+  "generic_error": "エラー: {error}",
+  "@generic_error": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "no_trips_yet": "まだ旅行はありません。",
+  "stat_countries_visited": "訪問国",
+  "stat_days_abroad": "海外での日々",
+  "stat_last_trip": "最後の旅行",
+  "on_this_day_label": "この日: {date}",
+  "@on_this_day_label": {
+    "placeholders": {
+      "date": {}
+    }
+  },
+  "btn_open_trip": "オープントリップ",
+  "country_sheet_days": "曜日: {count}",
+  "@country_sheet_days": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "country_sheet_trips": "旅行: {count}",
+  "@country_sheet_trips": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "country_sheet_view_trips": "この国の旅行を見る",
+  "country_sheet_add_trip": "旅行を追加",
+  "country_sheet_no_photos_title": "ここにはまだ写真がありません",
+  "country_sheet_no_photos_message": "旅行にメディアを追加すると、ここに表示されます。",
+  "country_overview_subtitle": "国の概要",
+  "country_overview_label_trips": "旅行",
+  "country_overview_label_days": "日数",
+  "country_overview_label_steps": "ステップ",
+  "country_overview_label_photos": "写真",
+  "country_overview_label_last_visited": "最後に訪問した",
+  "country_overview_last_visited_never": "訪れたことがない",
+  "country_overview_empty_trips_message": "この国への最初の旅行を追加して、洞察を解き明かしましょう。",
+  "country_overview_action_view_trips": "旅行を見る",
+  "country_overview_action_add_trip": "旅行を追加する",
+  "country_overview_action_close": "近い",
+  "guest_user": "ゲストユーザー",
+  "plan_active": "アクティブプラン",
+  "auth_welcome": "__ブランド__へようこそ",
+  "auth_login": "ログイン",
+  "auth_signup": "サインアップ",
+  "auth_continue_guest": "ゲストとして続行",
+  "trip_deleted": "旅行が削除されました。",
+  "trip_menu_delete": "旅行の削除",
+  "trip_delete_confirm_title": "この旅行を削除しますか?",
+  "trip_delete_confirm_body": "旅行とそのすべてのステップは完全に削除されます。",
+  "trip_delete_missing_id_error": "ID がないと旅行を削除できません。",
+  "menu_open_details": "詳細を開く",
+  "menu_delete_trip": "旅行の削除",
+  "tooltip_add_trip": "旅行を追加",
+  "drawer_achievements": "業績",
+  "achievements_sign_in_prompt": "サインインして実績を表示します。",
+  "year_in_review_share_tooltip": "年のストーリーを共有する",
+  "year_in_review_sign_in_prompt": "サインインして、今年の振り返りを確認してください。",
+  "year_in_review_no_trips": "レビューをロック解除するには、いくつかの旅行を追加します。",
+  "year_in_review_no_data_for_year": "今年のレビューはありません。",
+  "year_in_review_map_title": "トラベルマップ {year}",
+  "@year_in_review_map_title": {
+    "placeholders": {
+      "year": {}
+    }
+  },
+  "year_in_review_story_title": "旅行中のあなたの{year}",
+  "@year_in_review_story_title": {
+    "placeholders": {
+      "year": {}
+    }
+  },
+  "year_in_review_story_summary": "{days} 日 - {trips} 旅行 - {countries} か国",
+  "@year_in_review_story_summary": {
+    "placeholders": {
+      "days": {},
+      "trips": {},
+      "countries": {}
+    }
+  },
+  "year_in_review_longest_trip": "最長の旅行",
+  "year_in_review_longest_trip_value": "{title} ～ {days} 日",
+  "@year_in_review_longest_trip_value": {
+    "placeholders": {
+      "title": {},
+      "days": {}
+    }
+  },
+  "year_in_review_top_country": "トップカントリー",
+  "year_in_review_top_country_value": "{country} ～ {days} 日",
+  "@year_in_review_top_country_value": {
+    "placeholders": {
+      "country": {},
+      "days": {}
+    }
+  },
+  "year_in_review_no_photo_highlights": "ハイライト写真はまだありません",
+  "year_in_review_no_achievements": "(まだ) ロック解除された実績はありません。",
+  "year_in_review_unlocked_achievements": "ロック解除された実績",
+  "year_in_review_render_error": "画像を生成できません。",
+  "year_in_review_encode_error": "イメージの作成中にエラーが発生しました。",
+  "year_in_review_share_message": "私の{year}はWorldTraceと旅行中",
+  "@year_in_review_share_message": {
+    "placeholders": {
+      "year": {}
+    }
+  },
+  "year_in_review_share_failed": "共有に失敗しました: {error}",
+  "@year_in_review_share_failed": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "trip_story_share_tooltip": "ストーリーを共有する",
+  "trip_story_share_render_error": "ストーリーを生成できません。",
+  "trip_story_share_image_error": "イメージの作成中にエラーが発生しました。",
+  "trip_story_share_message": "WorldTrace との {country} 旅行",
+  "@trip_story_share_message": {
+    "placeholders": {
+      "country": {}
+    }
+  },
+  "trip_story_share_failed": "共有に失敗しました: {error}",
+  "@trip_story_share_failed": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "trip_story_stat_steps": "ステップ",
+  "trip_story_stat_photos": "写真",
+  "trip_story_stat_days": "日数",
+  "settings_profile_section_title": "プロフィール",
+  "settings_plan_section_title": "__ブランド__プラン",
+  "settings_logout_button": "ログアウト",
+  "plan_pro": "__ブランド__ __プロ__",
+  "settings_plan_description_pro": "無制限のタイムラインとプレミアムな旅行ツール。",
+  "settings_plan_description_free": "1 回の旅行につき最大 {steps} 歩。 Pro にアップグレードすると、無制限のタイムラインと高度な統計のロックが解除されます。",
+  "@settings_plan_description_free": {
+    "placeholders": {
+      "steps": {}
+    }
+  },
+  "profile_birthdate_label": "{date}生まれ",
+  "@profile_birthdate_label": {
+    "placeholders": {
+      "date": {}
+    }
+  },
+  "profile_birthdate_not_set": "未設定",
+  "profile_edit_button": "プロフィールの編集",
+  "profile_edit_title": "プロフィールの編集",
+  "profile_photo_change": "写真を変更する",
+  "profile_photo_remove": "写真を削除",
+  "profile_first_name_label": "ファーストネーム",
+  "profile_last_name_label": "苗字",
+  "profile_birthdate_title": "生年月日",
+  "profile_birthdate_pick": "選ぶ",
+  "plan_support_thanks": "WorldTrace をサポートしていただきありがとうございます!",
+  "profile_plan_section_title": "プラン",
+  "profile_plan_current_pro": "現在のプラン: Pro - 旅行ごとに無制限の歩数。",
+  "profile_plan_current_free": "現在のプラン: 無料 - 1 回の旅行につき最大 {steps} 歩。",
+  "@profile_plan_current_free": {
+    "placeholders": {
+      "steps": {}
+    }
+  },
+  "profile_sign_in_prompt": "サインインして旅行プロフィールを表示します。",
+  "profile_no_data": "利用可能なデータはありません。",
+  "profile_travel_summary_title": "旅のまとめ",
+  "profile_stat_trips": "旅行",
+  "profile_stat_countries": "国",
+  "profile_stat_days": "日数",
+  "profile_top_year_text": "最も激しかった年: {year} ～ {days} 日",
+  "@profile_top_year_text": {
+    "placeholders": {
+      "year": {},
+      "days": {}
+    }
+  },
+  "profile_top_year_empty": "旅行の記録を開始して、年間統計を取得しましょう。",
+  "profile_achievements_title": "業績",
+  "profile_see_all": "全て見る",
+  "profile_achievements_progress": "ロック解除された実績: {unlocked}/{total}",
+  "@profile_achievements_progress": {
+    "placeholders": {
+      "unlocked": {},
+      "total": {}
+    }
+  },
+  "profile_goals_title": "目標",
+  "profile_goals_manage": "管理",
+  "profile_goals_empty": "ここで年間の国別目標を設定して進捗状況を追跡します。",
+  "profile_goal_progress_label": "年 {year} ～ {current}/{target} の国",
+  "@profile_goal_progress_label": {
+    "placeholders": {
+      "year": {},
+      "current": {},
+      "target": {}
+    }
+  },
+  "profile_view_year_button": "あなたの年を見てください",
+  "profile_share_button": "私のプロフィールを共有する",
+  "profile_share_no_trips": "WorldTrace で旅行を記録し始めています。次の冒険に私について来てください!",
+  "profile_share_stats": "私は{trips}件の旅行を記録し、{countries}か国を訪問し、WorldTraceと旅行して{days}日間を過ごしました。",
+  "@profile_share_stats": {
+    "placeholders": {
+      "trips": {},
+      "countries": {},
+      "days": {}
+    }
+  },
+  "profile_share_top_year": "私が最も熱中した年は{year}日で、{days}日は出張でした。",
+  "@profile_share_top_year": {
+    "placeholders": {
+      "year": {},
+      "days": {}
+    }
+  },
+  "step_detail_section_story": "話",
+  "step_detail_story_empty": "このステップにはストーリーは追加されませんでした。",
+  "step_detail_section_photos": "写真",
+  "step_detail_action_share": "共有",
+  "step_media_web_unsupported": "Web では画像の共有はサポートされていません。",
+  "step_media_image_missing": "このデバイスに画像が見つかりません。",
+  "step_media_share_text": "WorldTrace との旅行のスナップ",
+  "step_media_share_failed": "この画像は共有できません。",
+  "step_media_title": "写真 {current}/{total}",
+  "@step_media_title": {
+    "placeholders": {
+      "current": {},
+      "total": {}
+    }
+  },
+  "step_media_share_tooltip": "共有",
+  "upgrade_title": "WorldTrace Pro のロックを解除する",
+  "upgrade_headline": "無制限にアップグレード",
+  "upgrade_description": "Pro に移行して、無制限のタイムラインと旅行者に特化したツールを使用してストーリーを伝え続けます。",
+  "upgrade_benefit_unlimited_steps": "旅行ごとの歩数制限なし",
+  "upgrade_benefit_advanced_stats": "高度な統計と目標 (近日公開予定)",
+  "upgrade_benefit_heavy_users": "頻繁に旅行する人向けに作られています",
+  "upgrade_benefit_early_access": "実験的機能への早期アクセス",
+  "upgrade_success_message": "WorldTrace Pro が有効になりました!",
+  "upgrade_maybe_later": "たぶん後で",
+  "home_welcome_title": "いらっしゃいませ",
+  "home_next_trip_prompt": "次の旅行を記録する準備はできましたか?",
+  "world_map_sign_in_prompt": "サインインするか、ゲストとして続行して旅行マップを表示します。",
+  "world_map_empty_message": "最初の旅行を追加して地図を表示します。",
+  "trip_story_open_failed": "トリップ ストーリーを開けません: {error}",
+  "photo_viewer_web_unsupported": "全画面での写真の表示は、モバイルとデスクトップでのみサポートされています。",
+  "onboarding_track_countries_title": "国を追跡する",
+  "onboarding_track_countries_subtitle": "旅行、思い出、統計情報を追加する",
+  "onboarding_set_goals_title": "目標を設定する",
+  "onboarding_set_goals_subtitle": "「2030年までに30か国」などの目標を立てる",
+  "onboarding_share_remember_title": "共有して覚えておいてください",
+  "onboarding_share_remember_subtitle": "旅行の共有可能なカードを作成する",
+  "achievement_first_trip_title": "最初の旅行が記録されました",
+  "achievement_first_trip_description": "初めての旅行を WorldTrace に記録します。",
+  "achievement_five_trips_title": "ファイブトリップクラブ",
+  "achievement_five_trips_description": "日記に記録された旅行を 5 回達成します。",
+  "achievement_ten_trips_title": "10 回の旅行のマイルストーン",
+  "achievement_ten_trips_description": "少なくとも 10 件の冒険を計画し、記録します。",
+  "achievement_five_countries_title": "グローブトロッター I",
+  "achievement_five_countries_description": "5 つの異なる国を訪問します。",
+  "achievement_ten_countries_title": "グローブトロッター II",
+  "achievement_ten_countries_description": "ユニークな 10 か国にアクセスしましょう。",
+  "achievement_thirty_days_title": "一年のうち30日",
+  "achievement_thirty_days_description": "同じ年に 30 日以上の旅行をする。",
+  "achievement_hundred_days_title": "旅の100日間",
+  "achievement_hundred_days_description": "累計旅行日数が 100 日になります。",
+  "@trip_story_open_failed": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "auth_continue_email": "email に進む",
+  "auth_continue_google": "Google を続行する",
+  "auth_continue_facebook": "Facebook を続ける"
+}

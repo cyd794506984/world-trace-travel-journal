@@ -1,0 +1,447 @@
+{
+  "@@locale": "ru",
+  "app_title": "WorldTrace",
+  "home_title": "WorldTrace",
+  "drawer_home": "Главная / Панель управления",
+  "drawer_world_map": "Карта мира",
+  "drawer_trips": "Путешествия",
+  "drawer_stats": "Статистика",
+  "drawer_goals": "Цели",
+  "drawer_profile": "Профиль путешествия",
+  "drawer_account": "Настройки учетной записи",
+  "gallery_title": "Галерея",
+  "gallery_nav_label": "Галерея",
+  "gallery_profile_cta": "Посмотреть все фотографии",
+  "gallery_empty_title": "Фото пока нет",
+  "gallery_empty_message": "Добавьте медиа в свои поездки, и они появятся здесь.",
+  "trips_title": "Путешествия",
+  "trip_detail_timeline": "Хронология",
+  "trip_detail_empty_steps_message": "Никаких шагов пока нет. Начните свой рассказ о путешествии с первой заметки.",
+  "trip_detail_day_header_steps": "{count} шагов",
+  "@trip_detail_day_header_steps": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "trip_detail_days_chip": "{count, plural, one {{count} день} other {{count} дни}}",
+  "@trip_detail_days_chip": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "trip_detail_section_timeline": "Хронология",
+  "trip_detail_section_photos_trip": "Фотографии",
+  "trip_edit_title_new": "Новая поездка",
+  "trip_edit_title_edit": "Изменить поездку",
+  "trip_edit_button_save": "Сохранять",
+  "trip_edit_button_create": "Создавать",
+  "trip_edit_field_country_iso_label": "ISO-код страны",
+  "trip_edit_field_country_iso_help": "Напр.: JP, US, IT",
+  "trip_edit_field_name_label": "Название поездки",
+  "trip_edit_field_notes_label": "Примечания (необязательно)",
+  "trip_edit_button_start_date": "Дата начала",
+  "trip_edit_button_end_date": "Дата окончания",
+  "trip_editor_new_title": "Новая поездка",
+  "trip_editor_edit_title": "Изменить поездку",
+  "trip_editor_field_country_label": "Страна ИСО",
+  "trip_editor_field_country_helper": "Напр.: JP, US, IT",
+  "trip_editor_field_name_label": "Название поездки",
+  "trip_editor_field_description_label": "Примечания (необязательно)",
+  "trip_editor_field_start_date_label": "Дата начала",
+  "trip_editor_field_end_date_label": "Дата окончания",
+  "trip_editor_date_range_days": "{days} дней",
+  "@trip_editor_date_range_days": {
+    "placeholders": {
+      "days": {}
+    }
+  },
+  "trip_editor_error_country_required": "Пожалуйста, введите ISO-код страны.",
+  "trip_editor_error_name_required": "Введите название поездки.",
+  "trip_editor_error_dates_required": "Пожалуйста, выберите дату начала и окончания.",
+  "trip_editor_error_date_order": "Дата окончания не может быть раньше даты начала.",
+  "trip_editor_save_button": "Сохранить поездку",
+  "step_menu_edit": "Изменить шаг",
+  "step_menu_delete": "Удалить шаг",
+  "step_delete_confirm_title": "Удалить шаг?",
+  "step_delete_confirm_body": "Эта заметка будет удалена из хронологии поездки.",
+  "step_editor_add_title": "Новый шаг",
+  "step_editor_edit_title": "Изменить шаг",
+  "step_editor_field_description_label": "Описание шага",
+  "step_editor_field_place_label": "Название места (необязательно)",
+  "step_editor_field_date_time_label": "Дата и время: {value}",
+  "@step_editor_field_date_time_label": {
+    "placeholders": {
+      "value": {}
+    }
+  },
+  "step_editor_hint_diary": "Напишите об этом моменте...",
+  "step_editor_header_add_place_hint": "Добавьте, где вы находитесь",
+  "step_editor_place_hint": "Город, место или достопримечательность",
+  "step_editor_button_add_photos": "Добавить фотографии",
+  "step_editor_photos_selected": "Выбрано {count} фотографий",
+  "@step_editor_photos_selected": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "step_editor_error_pick_images": "Ошибка при выборе изображений.",
+  "step_editor_error_empty_description": "Добавьте краткое описание этого шага.",
+  "step_media_add_web_unsupported": "Добавление фотографий поддерживается только на мобильных устройствах и компьютерах.",
+  "generic_error_saving_step": "Не удалось сохранить шаг. Пожалуйста, попробуйте еще раз.",
+  "fab_add_step_tooltip": "Добавить шаг",
+  "fab_add_step_upgrade_tooltip": "Обновите до Pro",
+  "plan_limit_steps_reached_message": "Вы достигли предела в {steps} шагов за поездку по бесплатному плану. Обновите версию до Pro, чтобы продолжать вести журнал.",
+  "@plan_limit_steps_reached_message": {
+    "placeholders": {
+      "steps": {}
+    }
+  },
+  "plan_limit_steps_reached_generic": "Вы достигли максимального количества шагов для этого плана. Обновите версию до Pro, чтобы продолжать вести журнал.",
+  "btn_add_step": "Добавить шаг",
+  "btn_save": "Сохранять",
+  "btn_cancel": "Отмена",
+  "btn_delete": "Удалить",
+  "on_this_day_title": "В этот день",
+  "on_this_day_empty": "В этот день еще не зарегистрировано ни одной поездки.",
+  "stats_title": "Глобальная информационная панель",
+  "stats_sign_in_prompt": "Пожалуйста, войдите, чтобы увидеть статистику.",
+  "stats_highlights_title": "Основные моменты",
+  "stats_metric_trips_logged": "Зарегистрировано поездок",
+  "stats_metric_travel_heavy_year": "Год, насыщенный путешествиями",
+  "stats_metric_travel_heavy_year_value": "{year} – {days} дней",
+  "@stats_metric_travel_heavy_year_value": {
+    "placeholders": {
+      "year": {},
+      "days": {}
+    }
+  },
+  "stats_value_not_available": "Нет в наличии",
+  "stats_empty_message": "Добавьте свою первую поездку, чтобы разблокировать статистику.",
+  "stats_highlight_average_days": "Среднее количество дней в поездке",
+  "stats_highlight_longest_trip": "Самая длинная поездка",
+  "stats_highlight_longest_trip_value": "{days} дней - {destination}",
+  "@stats_highlight_longest_trip_value": {
+    "placeholders": {
+      "days": {},
+      "destination": {}
+    }
+  },
+  "stats_highlight_recent_trip": "Самая последняя поездка",
+  "stats_highlight_recent_trip_value": "{destination} - {date}",
+  "@stats_highlight_recent_trip_value": {
+    "placeholders": {
+      "destination": {},
+      "date": {}
+    }
+  },
+  "goals_title": "Цели путешествия",
+  "goals_new_goal_button": "Новая цель",
+  "goals_dialog_title": "Создать цель",
+  "goals_field_title_label": "Заголовок",
+  "goals_field_year_label": "Год",
+  "goals_field_target_label": "Целевые страны",
+  "goals_delete_tooltip": "Удалить цель",
+  "goals_card_year_label": "Год {year}",
+  "@goals_card_year_label": {
+    "placeholders": {
+      "year": {}
+    }
+  },
+  "goals_card_progress_label": "{current} / {target} посещенных стран",
+  "@goals_card_progress_label": {
+    "placeholders": {
+      "current": {},
+      "target": {}
+    }
+  },
+  "goals_empty_title": "Целей пока нет",
+  "goals_empty_description": "Установите годовую цель для страны, и мы будем автоматически отслеживать ваш прогресс.",
+  "goals_empty_cta": "Создать цель",
+  "account_title": "Счет",
+  "plan_free": "__БРЭНД__ Бесплатно",
+  "plan_upgrade": "Обновите до Pro",
+  "year_in_review_title": "Обзор года",
+  "trip_story_title": "История поездки",
+  "home_sign_in_prompt": "Пожалуйста, войдите в систему или продолжите работу в качестве гостя, чтобы начать отслеживать свои поездки.",
+  "generic_error": "Ошибка: {error}",
+  "@generic_error": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "no_trips_yet": "Поездок пока нет.",
+  "stat_countries_visited": "Посещенные страны",
+  "stat_days_abroad": "Дни за границей",
+  "stat_last_trip": "Последняя поездка",
+  "on_this_day_label": "В этот день: {date}",
+  "@on_this_day_label": {
+    "placeholders": {
+      "date": {}
+    }
+  },
+  "btn_open_trip": "Открытая поездка",
+  "country_sheet_days": "Дни: {count}",
+  "@country_sheet_days": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "country_sheet_trips": "Поездки: {count}",
+  "@country_sheet_trips": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "country_sheet_view_trips": "Посмотреть поездки в эту страну",
+  "country_sheet_add_trip": "Добавить поездку",
+  "country_sheet_no_photos_title": "Здесь пока нет фотографий",
+  "country_sheet_no_photos_message": "Добавьте медиа в свои поездки, и они появятся здесь.",
+  "country_overview_subtitle": "Обзор страны",
+  "country_overview_label_trips": "Путешествия",
+  "country_overview_label_days": "Дни",
+  "country_overview_label_steps": "Шаги",
+  "country_overview_label_photos": "Фотографии",
+  "country_overview_label_last_visited": "Последнее посещение",
+  "country_overview_last_visited_never": "Никогда не посещал",
+  "country_overview_empty_trips_message": "Добавьте свою первую поездку в эту страну, чтобы получить ценную информацию.",
+  "country_overview_action_view_trips": "Посмотреть поездки",
+  "country_overview_action_add_trip": "Добавить поездку",
+  "country_overview_action_close": "Закрывать",
+  "guest_user": "Гость пользователь",
+  "plan_active": "Активный план",
+  "auth_welcome": "Добро пожаловать в WorldTrace",
+  "auth_login": "Авторизоваться",
+  "auth_signup": "Зарегистрироваться",
+  "auth_continue_guest": "Продолжить в качестве гостя",
+  "trip_deleted": "Поездка удалена.",
+  "trip_menu_delete": "Удалить поездку",
+  "trip_delete_confirm_title": "Удалить эту поездку?",
+  "trip_delete_confirm_body": "Поездка и все ее этапы будут удалены без возможности восстановления.",
+  "trip_delete_missing_id_error": "Невозможно удалить поездку без идентификатора.",
+  "menu_open_details": "Открыть детали",
+  "menu_delete_trip": "Удалить поездку",
+  "tooltip_add_trip": "Добавить поездку",
+  "drawer_achievements": "Достижения",
+  "achievements_sign_in_prompt": "Войдите, чтобы просмотреть свои достижения.",
+  "year_in_review_share_tooltip": "Поделитесь историей года",
+  "year_in_review_sign_in_prompt": "Войдите в систему, чтобы просмотреть обзор своего года.",
+  "year_in_review_no_trips": "Добавьте несколько поездок, чтобы разблокировать свой отзыв.",
+  "year_in_review_no_data_for_year": "Обзор недоступен в этом году.",
+  "year_in_review_map_title": "Карта путешествия {year}",
+  "@year_in_review_map_title": {
+    "placeholders": {
+      "year": {}
+    }
+  },
+  "year_in_review_story_title": "Ваш {year} в путешествии",
+  "@year_in_review_story_title": {
+    "placeholders": {
+      "year": {}
+    }
+  },
+  "year_in_review_story_summary": "{days} дней - {trips} поездок - {countries} стран",
+  "@year_in_review_story_summary": {
+    "placeholders": {
+      "days": {},
+      "trips": {},
+      "countries": {}
+    }
+  },
+  "year_in_review_longest_trip": "Самая длинная поездка",
+  "year_in_review_longest_trip_value": "{title} – {days} дней",
+  "@year_in_review_longest_trip_value": {
+    "placeholders": {
+      "title": {},
+      "days": {}
+    }
+  },
+  "year_in_review_top_country": "Лучшая страна",
+  "year_in_review_top_country_value": "{country} – {days} дней",
+  "@year_in_review_top_country_value": {
+    "placeholders": {
+      "country": {},
+      "days": {}
+    }
+  },
+  "year_in_review_no_photo_highlights": "Пока нет ярких фотографий",
+  "year_in_review_no_achievements": "Достижения не разблокированы (пока).",
+  "year_in_review_unlocked_achievements": "Разблокированные достижения",
+  "year_in_review_render_error": "Не удалось создать изображение.",
+  "year_in_review_encode_error": "Ошибка при создании изображения.",
+  "year_in_review_share_message": "Мой {year} в путешествии с WorldTrace",
+  "@year_in_review_share_message": {
+    "placeholders": {
+      "year": {}
+    }
+  },
+  "year_in_review_share_failed": "Не удалось поделиться: {error}",
+  "@year_in_review_share_failed": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "trip_story_share_tooltip": "Поделиться историей",
+  "trip_story_share_render_error": "Не удалось создать историю.",
+  "trip_story_share_image_error": "Ошибка при создании изображения.",
+  "trip_story_share_message": "Моя поездка в {country} с WorldTrace",
+  "@trip_story_share_message": {
+    "placeholders": {
+      "country": {}
+    }
+  },
+  "trip_story_share_failed": "Не удалось поделиться: {error}",
+  "@trip_story_share_failed": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "trip_story_stat_steps": "Шаги",
+  "trip_story_stat_photos": "Фотографии",
+  "trip_story_stat_days": "Дни",
+  "settings_profile_section_title": "Профиль",
+  "settings_plan_section_title": "WorldTrace план",
+  "settings_logout_button": "Выйти",
+  "plan_pro": "__БРЕНД__ Pro",
+  "settings_plan_description_pro": "Неограниченные сроки и инструменты для путешествий премиум-класса.",
+  "settings_plan_description_free": "До {steps} шагов за поездку. Обновите версию до Pro, чтобы разблокировать неограниченные сроки и расширенную статистику.",
+  "@settings_plan_description_free": {
+    "placeholders": {
+      "steps": {}
+    }
+  },
+  "profile_birthdate_label": "Родился {date}",
+  "@profile_birthdate_label": {
+    "placeholders": {
+      "date": {}
+    }
+  },
+  "profile_birthdate_not_set": "Не установлено",
+  "profile_edit_button": "Редактировать профиль",
+  "profile_edit_title": "Редактировать профиль",
+  "profile_photo_change": "Изменить фотографию",
+  "profile_photo_remove": "Удалить фото",
+  "profile_first_name_label": "Имя",
+  "profile_last_name_label": "Фамилия",
+  "profile_birthdate_title": "Дата рождения",
+  "profile_birthdate_pick": "Выбирать",
+  "plan_support_thanks": "Спасибо за поддержку WorldTrace!",
+  "profile_plan_section_title": "План",
+  "profile_plan_current_pro": "Текущий план: Pro — неограниченное количество шагов за поездку.",
+  "profile_plan_current_free": "Текущий план: Бесплатно — до {steps} шагов за поездку.",
+  "@profile_plan_current_free": {
+    "placeholders": {
+      "steps": {}
+    }
+  },
+  "profile_sign_in_prompt": "Войдите, чтобы просмотреть свой профиль путешествия.",
+  "profile_no_data": "Данные отсутствуют.",
+  "profile_travel_summary_title": "Краткое описание путешествия",
+  "profile_stat_trips": "Путешествия",
+  "profile_stat_countries": "Страны",
+  "profile_stat_days": "Дни",
+  "profile_top_year_text": "Самый интенсивный год: {year} - {days} дней.",
+  "@profile_top_year_text": {
+    "placeholders": {
+      "year": {},
+      "days": {}
+    }
+  },
+  "profile_top_year_empty": "Начните регистрировать свои поездки, чтобы разблокировать годовую статистику.",
+  "profile_achievements_title": "Достижения",
+  "profile_see_all": "Посмотреть все",
+  "profile_achievements_progress": "Разблокированные достижения: {unlocked} из {total}.",
+  "@profile_achievements_progress": {
+    "placeholders": {
+      "unlocked": {},
+      "total": {}
+    }
+  },
+  "profile_goals_title": "Цели",
+  "profile_goals_manage": "Управлять",
+  "profile_goals_empty": "Установите годовую цель для страны, чтобы отслеживать свой прогресс здесь.",
+  "profile_goal_progress_label": "Год {year} – {current}/{target} стран",
+  "@profile_goal_progress_label": {
+    "placeholders": {
+      "year": {},
+      "current": {},
+      "target": {}
+    }
+  },
+  "profile_view_year_button": "Увидеть свой год",
+  "profile_share_button": "Поделитесь моим профилем",
+  "profile_share_no_trips": "Я начинаю отслеживать свои поездки с помощью WorldTrace. Следуй за мной в моем следующем приключении!",
+  "profile_share_stats": "Я зарегистрировал {trips} поездок, посетил {countries} стран и провел {days} дней, путешествуя с WorldTrace.",
+  "@profile_share_stats": {
+    "placeholders": {
+      "trips": {},
+      "countries": {},
+      "days": {}
+    }
+  },
+  "profile_share_top_year": "Мой самый напряженный год был {year}, когда я был в дороге {days} дней.",
+  "@profile_share_top_year": {
+    "placeholders": {
+      "year": {},
+      "days": {}
+    }
+  },
+  "step_detail_section_story": "История",
+  "step_detail_story_empty": "Для этого шага история не была добавлена.",
+  "step_detail_section_photos": "Фотографии",
+  "step_detail_action_share": "Делиться",
+  "step_media_web_unsupported": "Обмен изображениями в Интернете не поддерживается.",
+  "step_media_image_missing": "Изображение не найдено на этом устройстве.",
+  "step_media_share_text": "Кадр из моей поездки с WorldTrace",
+  "step_media_share_failed": "Невозможно поделиться этим изображением.",
+  "step_media_title": "Фото {current}/{total}",
+  "@step_media_title": {
+    "placeholders": {
+      "current": {},
+      "total": {}
+    }
+  },
+  "step_media_share_tooltip": "Делиться",
+  "upgrade_title": "Разблокируйте WorldTrace Pro",
+  "upgrade_headline": "Обновление без ограничений",
+  "upgrade_description": "Перейдите на Pro, чтобы продолжать рассказывать свои истории, используя неограниченные сроки и инструменты, ориентированные на путешественников.",
+  "upgrade_benefit_unlimited_steps": "Нет ограничений по шагам за поездку",
+  "upgrade_benefit_advanced_stats": "Расширенная статистика и цели (скоро)",
+  "upgrade_benefit_heavy_users": "Создан для тяжелых путешественников",
+  "upgrade_benefit_early_access": "Ранний доступ к экспериментальным функциям",
+  "upgrade_success_message": "WorldTrace Pro активирован!",
+  "upgrade_maybe_later": "Может быть, позже",
+  "home_welcome_title": "Добро пожаловать",
+  "home_next_trip_prompt": "Готовы записать свою следующую поездку?",
+  "world_map_sign_in_prompt": "Войдите в систему или продолжите работу в качестве гостя, чтобы просмотреть карту путешествий.",
+  "world_map_empty_message": "Добавьте свою первую поездку, чтобы увидеть карту.",
+  "trip_story_open_failed": "Невозможно открыть историю путешествия: {error}.",
+  "photo_viewer_web_unsupported": "Полноэкранный просмотр фотографий поддерживается только на мобильных устройствах и компьютерах.",
+  "onboarding_track_countries_title": "Отслеживать страны",
+  "onboarding_track_countries_subtitle": "Добавляйте поездки, воспоминания и статистику",
+  "onboarding_set_goals_title": "Ставьте цели",
+  "onboarding_set_goals_subtitle": "Поставьте цели типа «30 стран к 2030 году».",
+  "onboarding_share_remember_title": "Поделитесь и запомните",
+  "onboarding_share_remember_subtitle": "Создавайте общие карты своих путешествий",
+  "achievement_first_trip_title": "Записана первая поездка",
+  "achievement_first_trip_description": "Запишите свою первую поездку в WorldTrace.",
+  "achievement_five_trips_title": "Клуб пяти поездок",
+  "achievement_five_trips_description": "Совершите пять поездок, записанных в вашем журнале.",
+  "achievement_ten_trips_title": "Десять поездок",
+  "achievement_ten_trips_description": "Запланируйте и запишите не менее десяти приключений.",
+  "achievement_five_countries_title": "Путешественник I",
+  "achievement_five_countries_description": "Посетите пять разных стран.",
+  "achievement_ten_countries_title": "Путешественник II",
+  "achievement_ten_countries_description": "Доберитесь до десяти уникальных стран.",
+  "achievement_thirty_days_title": "30 дней в году",
+  "achievement_thirty_days_description": "Проведите более 30 дней в путешествии в течение одного года.",
+  "achievement_hundred_days_title": "100 дней в пути",
+  "achievement_hundred_days_description": "Накопите в общей сложности сто дней путешествия.",
+  "@trip_story_open_failed": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "auth_continue_email": "Продолжить с email",
+  "auth_continue_google": "Продолжить с Google",
+  "auth_continue_facebook": "Продолжить с Facebook"
+}

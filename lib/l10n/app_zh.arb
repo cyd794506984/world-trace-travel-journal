@@ -1,0 +1,447 @@
+{
+  "@@locale": "zh",
+  "app_title": "WorldTrace",
+  "home_title": "WorldTrace",
+  "drawer_home": "主页 / 仪表板",
+  "drawer_world_map": "世界地图",
+  "drawer_trips": "行程",
+  "drawer_stats": "统计数据",
+  "drawer_goals": "目标",
+  "drawer_profile": "旅行简介",
+  "drawer_account": "帐户/设置",
+  "gallery_title": "画廊",
+  "gallery_nav_label": "画廊",
+  "gallery_profile_cta": "查看所有照片",
+  "gallery_empty_title": "还没有照片",
+  "gallery_empty_message": "将媒体添加到您的旅行中，它们将显示在此处。",
+  "trips_title": "行程",
+  "trip_detail_timeline": "时间轴",
+  "trip_detail_empty_steps_message": "还没有步骤。从第一个音符开始你的旅行故事。",
+  "trip_detail_day_header_steps": "{count} 步骤",
+  "@trip_detail_day_header_steps": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "trip_detail_days_chip": "{count, plural, one {{count} 天} other {{count} 天}}",
+  "@trip_detail_days_chip": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "trip_detail_section_timeline": "时间轴",
+  "trip_detail_section_photos_trip": "照片",
+  "trip_edit_title_new": "新旅程",
+  "trip_edit_title_edit": "编辑行程",
+  "trip_edit_button_save": "节省",
+  "trip_edit_button_create": "创造",
+  "trip_edit_field_country_iso_label": "国家 ISO 代码",
+  "trip_edit_field_country_iso_help": "例如：JP, US, IT",
+  "trip_edit_field_name_label": "行程名称",
+  "trip_edit_field_notes_label": "注释（可选）",
+  "trip_edit_button_start_date": "开始日期",
+  "trip_edit_button_end_date": "结束日期",
+  "trip_editor_new_title": "新旅程",
+  "trip_editor_edit_title": "编辑行程",
+  "trip_editor_field_country_label": "国家ISO",
+  "trip_editor_field_country_helper": "例如：JP, US, IT",
+  "trip_editor_field_name_label": "行程名称",
+  "trip_editor_field_description_label": "注释（可选）",
+  "trip_editor_field_start_date_label": "开始日期",
+  "trip_editor_field_end_date_label": "结束日期",
+  "trip_editor_date_range_days": "{days} 天",
+  "@trip_editor_date_range_days": {
+    "placeholders": {
+      "days": {}
+    }
+  },
+  "trip_editor_error_country_required": "请输入国家/地区 ISO 代码。",
+  "trip_editor_error_name_required": "请输入行程名称。",
+  "trip_editor_error_dates_required": "请选择开始日期和结束日期。",
+  "trip_editor_error_date_order": "结束日期不能早于开始日期。",
+  "trip_editor_save_button": "保存行程",
+  "step_menu_edit": "编辑步骤",
+  "step_menu_delete": "删除步骤",
+  "step_delete_confirm_title": "删除步骤？",
+  "step_delete_confirm_body": "该注释将从行程时间表中删除。",
+  "step_editor_add_title": "新的一步",
+  "step_editor_edit_title": "编辑步骤",
+  "step_editor_field_description_label": "步骤说明",
+  "step_editor_field_place_label": "地名（可选）",
+  "step_editor_field_date_time_label": "日期和时间：{value}",
+  "@step_editor_field_date_time_label": {
+    "placeholders": {
+      "value": {}
+    }
+  },
+  "step_editor_hint_diary": "写下这一刻...",
+  "step_editor_header_add_place_hint": "添加您所在位置",
+  "step_editor_place_hint": "城市、地点或地标",
+  "step_editor_button_add_photos": "添加照片",
+  "step_editor_photos_selected": "已选择 {count} 照片",
+  "@step_editor_photos_selected": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "step_editor_error_pick_images": "选择图像时出错。",
+  "step_editor_error_empty_description": "请为此步骤添加简短说明。",
+  "step_media_add_web_unsupported": "仅支持在移动设备和桌面设备上添加照片。",
+  "generic_error_saving_step": "无法保存该步骤。请再试一次。",
+  "fab_add_step_tooltip": "添加步骤",
+  "fab_add_step_upgrade_tooltip": "升级到Pro",
+  "plan_limit_steps_reached_message": "您已达到免费计划每次行程 {steps} 步的限制。升级到 Pro 以继续写日记。",
+  "@plan_limit_steps_reached_message": {
+    "placeholders": {
+      "steps": {}
+    }
+  },
+  "plan_limit_steps_reached_generic": "您已达到此计划的步数限制。升级到 Pro 以继续写日记。",
+  "btn_add_step": "添加步骤",
+  "btn_save": "节省",
+  "btn_cancel": "取消",
+  "btn_delete": "删除",
+  "on_this_day_title": "在这一天",
+  "on_this_day_empty": "这一天尚未记录任何行程。",
+  "stats_title": "全球仪表板",
+  "stats_sign_in_prompt": "请登录查看统计数据。",
+  "stats_highlights_title": "亮点",
+  "stats_metric_trips_logged": "记录的行程",
+  "stats_metric_travel_heavy_year": "旅行频繁的一年",
+  "stats_metric_travel_heavy_year_value": "{year} - {days} 天",
+  "@stats_metric_travel_heavy_year_value": {
+    "placeholders": {
+      "year": {},
+      "days": {}
+    }
+  },
+  "stats_value_not_available": "无法使用",
+  "stats_empty_message": "添加您的第一次旅行以解锁统计数据。",
+  "stats_highlight_average_days": "每次出行平均天数",
+  "stats_highlight_longest_trip": "最长的行程",
+  "stats_highlight_longest_trip_value": "{days} 天 - {destination}",
+  "@stats_highlight_longest_trip_value": {
+    "placeholders": {
+      "days": {},
+      "destination": {}
+    }
+  },
+  "stats_highlight_recent_trip": "最近的旅行",
+  "stats_highlight_recent_trip_value": "{destination} - {date}",
+  "@stats_highlight_recent_trip_value": {
+    "placeholders": {
+      "destination": {},
+      "date": {}
+    }
+  },
+  "goals_title": "旅行目标",
+  "goals_new_goal_button": "新目标",
+  "goals_dialog_title": "创建目标",
+  "goals_field_title_label": "标题",
+  "goals_field_year_label": "年",
+  "goals_field_target_label": "目标国家",
+  "goals_delete_tooltip": "删除目标",
+  "goals_card_year_label": "年 {year}",
+  "@goals_card_year_label": {
+    "placeholders": {
+      "year": {}
+    }
+  },
+  "goals_card_progress_label": "{current} / {target} 访问过的国家",
+  "@goals_card_progress_label": {
+    "placeholders": {
+      "current": {},
+      "target": {}
+    }
+  },
+  "goals_empty_title": "还没有目标",
+  "goals_empty_description": "设置您的年度国家/地区目标，我们将自动跟踪您的进度。",
+  "goals_empty_cta": "创建一个目标",
+  "account_title": "帐户",
+  "plan_free": "__品牌__ 免费",
+  "plan_upgrade": "升级到Pro",
+  "year_in_review_title": "年度回顾",
+  "trip_story_title": "旅行故事",
+  "home_sign_in_prompt": "请登录或继续以访客身份开始跟踪您的行程。",
+  "generic_error": "错误：{error}",
+  "@generic_error": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "no_trips_yet": "还没有旅行。",
+  "stat_countries_visited": "访问过的国家",
+  "stat_days_abroad": "国外的日子",
+  "stat_last_trip": "最后一次旅行",
+  "on_this_day_label": "这一天：{date}",
+  "@on_this_day_label": {
+    "placeholders": {
+      "date": {}
+    }
+  },
+  "btn_open_trip": "开启行程",
+  "country_sheet_days": "天数：{count}",
+  "@country_sheet_days": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "country_sheet_trips": "行程：{count}",
+  "@country_sheet_trips": {
+    "placeholders": {
+      "count": {}
+    }
+  },
+  "country_sheet_view_trips": "查看这个国家的旅行",
+  "country_sheet_add_trip": "添加行程",
+  "country_sheet_no_photos_title": "这里还没有照片",
+  "country_sheet_no_photos_message": "将媒体添加到您的旅行中，它们将显示在此处。",
+  "country_overview_subtitle": "国家概况",
+  "country_overview_label_trips": "行程",
+  "country_overview_label_days": "天",
+  "country_overview_label_steps": "步骤",
+  "country_overview_label_photos": "照片",
+  "country_overview_label_last_visited": "上次访问",
+  "country_overview_last_visited_never": "从未访问过",
+  "country_overview_empty_trips_message": "添加您在这个国家的第一次旅行以解锁见解。",
+  "country_overview_action_view_trips": "查看行程",
+  "country_overview_action_add_trip": "添加行程",
+  "country_overview_action_close": "关闭",
+  "guest_user": "访客用户",
+  "plan_active": "主动计划",
+  "auth_welcome": "欢迎来到__品牌__",
+  "auth_login": "登录",
+  "auth_signup": "报名",
+  "auth_continue_guest": "继续以访客身份",
+  "trip_deleted": "行程已删除。",
+  "trip_menu_delete": "删除行程",
+  "trip_delete_confirm_title": "删除此行程？",
+  "trip_delete_confirm_body": "该行程及其所有步骤将被永久删除。",
+  "trip_delete_missing_id_error": "无法删除没有 ID 的行程。",
+  "menu_open_details": "打开详情",
+  "menu_delete_trip": "删除行程",
+  "tooltip_add_trip": "添加行程",
+  "drawer_achievements": "成就",
+  "achievements_sign_in_prompt": "登录查看您的成就。",
+  "year_in_review_share_tooltip": "分享当年的故事",
+  "year_in_review_sign_in_prompt": "登录查看您的年度回顾。",
+  "year_in_review_no_trips": "添加一些旅行来解锁您的评论。",
+  "year_in_review_no_data_for_year": "今年无法进行审查。",
+  "year_in_review_map_title": "旅游地图{year}",
+  "@year_in_review_map_title": {
+    "placeholders": {
+      "year": {}
+    }
+  },
+  "year_in_review_story_title": "您在旅行中的 {year}",
+  "@year_in_review_story_title": {
+    "placeholders": {
+      "year": {}
+    }
+  },
+  "year_in_review_story_summary": "{days} 天 - {trips} 次行程 - {countries} 个国家/地区",
+  "@year_in_review_story_summary": {
+    "placeholders": {
+      "days": {},
+      "trips": {},
+      "countries": {}
+    }
+  },
+  "year_in_review_longest_trip": "最长的行程",
+  "year_in_review_longest_trip_value": "{title} - {days} 天",
+  "@year_in_review_longest_trip_value": {
+    "placeholders": {
+      "title": {},
+      "days": {}
+    }
+  },
+  "year_in_review_top_country": "顶级国家",
+  "year_in_review_top_country_value": "{country} - {days} 天",
+  "@year_in_review_top_country_value": {
+    "placeholders": {
+      "country": {},
+      "days": {}
+    }
+  },
+  "year_in_review_no_photo_highlights": "还没有照片亮点",
+  "year_in_review_no_achievements": "尚未解锁任何成就。",
+  "year_in_review_unlocked_achievements": "解锁成就",
+  "year_in_review_render_error": "无法生成图像。",
+  "year_in_review_encode_error": "创建图像时出错。",
+  "year_in_review_share_message": "我的 {year} 与 WorldTrace 一起旅行",
+  "@year_in_review_share_message": {
+    "placeholders": {
+      "year": {}
+    }
+  },
+  "year_in_review_share_failed": "共享失败：{error}",
+  "@year_in_review_share_failed": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "trip_story_share_tooltip": "分享故事",
+  "trip_story_share_render_error": "无法生成故事。",
+  "trip_story_share_image_error": "创建图像时出错。",
+  "trip_story_share_message": "我与 WorldTrace 一起在 {country} 旅行",
+  "@trip_story_share_message": {
+    "placeholders": {
+      "country": {}
+    }
+  },
+  "trip_story_share_failed": "共享失败：{error}",
+  "@trip_story_share_failed": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "trip_story_stat_steps": "步骤",
+  "trip_story_stat_photos": "照片",
+  "trip_story_stat_days": "天",
+  "settings_profile_section_title": "轮廓",
+  "settings_plan_section_title": "__品牌__计划",
+  "settings_logout_button": "退出",
+  "plan_pro": "__品牌__ __专业__",
+  "settings_plan_description_pro": "无限的时间安排和优质的旅行工具。",
+  "settings_plan_description_free": "每次行程最多 {steps} 步。升级到 Pro 以解锁无限的时间线和高级统计数据。",
+  "@settings_plan_description_free": {
+    "placeholders": {
+      "steps": {}
+    }
+  },
+  "profile_birthdate_label": "出生于 {date}",
+  "@profile_birthdate_label": {
+    "placeholders": {
+      "date": {}
+    }
+  },
+  "profile_birthdate_not_set": "未设置",
+  "profile_edit_button": "编辑个人资料",
+  "profile_edit_title": "编辑个人资料",
+  "profile_photo_change": "更改照片",
+  "profile_photo_remove": "删除照片",
+  "profile_first_name_label": "名",
+  "profile_last_name_label": "姓",
+  "profile_birthdate_title": "出生日期",
+  "profile_birthdate_pick": "选择",
+  "plan_support_thanks": "感谢您对WorldTrace的支持！",
+  "profile_plan_section_title": "计划",
+  "profile_plan_current_pro": "当前计划：Pro - 每次行程不限步数。",
+  "profile_plan_current_free": "当前计划：免费 - 每次行程最多 {steps} 步。",
+  "@profile_plan_current_free": {
+    "placeholders": {
+      "steps": {}
+    }
+  },
+  "profile_sign_in_prompt": "登录以查看您的旅行资料。",
+  "profile_no_data": "无可用数据。",
+  "profile_travel_summary_title": "旅行总结",
+  "profile_stat_trips": "行程",
+  "profile_stat_countries": "国家",
+  "profile_stat_days": "天",
+  "profile_top_year_text": "最激烈的年份：{year} - {days} 天",
+  "@profile_top_year_text": {
+    "placeholders": {
+      "year": {},
+      "days": {}
+    }
+  },
+  "profile_top_year_empty": "开始记录您的旅行以解锁年度统计数据。",
+  "profile_achievements_title": "成就",
+  "profile_see_all": "查看全部",
+  "profile_achievements_progress": "已解锁成就：{unlocked}（共 {total}）",
+  "@profile_achievements_progress": {
+    "placeholders": {
+      "unlocked": {},
+      "total": {}
+    }
+  },
+  "profile_goals_title": "目标",
+  "profile_goals_manage": "管理",
+  "profile_goals_empty": "在这里设定年度国家目标来跟踪您的进展。",
+  "profile_goal_progress_label": "年份 {year} - {current}/{target} 国家/地区",
+  "@profile_goal_progress_label": {
+    "placeholders": {
+      "year": {},
+      "current": {},
+      "target": {}
+    }
+  },
+  "profile_view_year_button": "查看您的年份",
+  "profile_share_button": "分享我的个人资料",
+  "profile_share_no_trips": "我开始使用 WorldTrace 跟踪我的行程。跟随我进行下一次冒险！",
+  "profile_share_stats": "我已经记录了 {trips} 次旅行，访问了 {countries} 个国家，并与 WorldTrace 一起旅行了 {days} 天。",
+  "@profile_share_stats": {
+    "placeholders": {
+      "trips": {},
+      "countries": {},
+      "days": {}
+    }
+  },
+  "profile_share_top_year": "我最紧张的一年是 {year}，其中 {days} 天在路上。",
+  "@profile_share_top_year": {
+    "placeholders": {
+      "year": {},
+      "days": {}
+    }
+  },
+  "step_detail_section_story": "故事",
+  "step_detail_story_empty": "这一步没有添加任何故事。",
+  "step_detail_section_photos": "照片",
+  "step_detail_action_share": "分享",
+  "step_media_web_unsupported": "网络上不支持图像共享。",
+  "step_media_image_missing": "在此设备上找不到图像。",
+  "step_media_share_text": "我与 WorldTrace 一起旅行的快照",
+  "step_media_share_failed": "无法分享此图片。",
+  "step_media_title": "照片{current}/{total}",
+  "@step_media_title": {
+    "placeholders": {
+      "current": {},
+      "total": {}
+    }
+  },
+  "step_media_share_tooltip": "分享",
+  "upgrade_title": "解锁 WorldTrace Pro",
+  "upgrade_headline": "升级无限制",
+  "upgrade_description": "前往Pro，通过无限的时间线和以旅行者为中心的工具继续讲述您的故事。",
+  "upgrade_benefit_unlimited_steps": "每次行程没有步数限制",
+  "upgrade_benefit_advanced_stats": "高级统计数据和目标（即将推出）",
+  "upgrade_benefit_heavy_users": "专为重度旅行者打造",
+  "upgrade_benefit_early_access": "尽早使用实验性功能",
+  "upgrade_success_message": "WorldTrace Pro 已激活！",
+  "upgrade_maybe_later": "也许稍后",
+  "home_welcome_title": "欢迎",
+  "home_next_trip_prompt": "准备好记录您的下一次旅行了吗？",
+  "world_map_sign_in_prompt": "登录或继续以访客身份查看您的旅行地图。",
+  "world_map_empty_message": "添加您的第一次行程以查看地图。",
+  "trip_story_open_failed": "无法打开旅行故事：{error}",
+  "photo_viewer_web_unsupported": "仅在移动设备和桌面设备上支持全屏照片查看。",
+  "onboarding_track_countries_title": "追踪国家",
+  "onboarding_track_countries_subtitle": "添加旅行、回忆和统计数据",
+  "onboarding_set_goals_title": "设定目标",
+  "onboarding_set_goals_subtitle": "制定“到 2030 年覆盖 30 个国家”等目标",
+  "onboarding_share_remember_title": "分享并记住",
+  "onboarding_share_remember_subtitle": "创建可共享的旅行卡片",
+  "achievement_first_trip_title": "记录的第一次旅行",
+  "achievement_first_trip_description": "在 WorldTrace 中记录您的第一次旅行。",
+  "achievement_five_trips_title": "五次旅行俱乐部",
+  "achievement_five_trips_description": "达到日记中记录的五次旅行。",
+  "achievement_ten_trips_title": "十次旅行里程碑",
+  "achievement_ten_trips_description": "计划并记录至少十次冒险。",
+  "achievement_five_countries_title": "环球旅行者一号",
+  "achievement_five_countries_description": "访问五个不同的国家。",
+  "achievement_ten_countries_title": "环球旅行者II",
+  "achievement_ten_countries_description": "到达十个独特的国家。",
+  "achievement_thirty_days_title": "一年有30天",
+  "achievement_thirty_days_description": "一年内有 30 天以上的旅行时间。",
+  "achievement_hundred_days_title": "在路上的100天",
+  "achievement_hundred_days_description": "累计旅行天数一百。",
+  "@trip_story_open_failed": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "auth_continue_email": "继续使用 email",
+  "auth_continue_google": "继续使用 Google",
+  "auth_continue_facebook": "继续Facebook"
+}
