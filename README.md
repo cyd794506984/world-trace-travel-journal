@@ -1,4 +1,4 @@
-![WorldTrace cover](https://i.ibb.co/k65y4GY2/Nuovo-progetto-1.png)
+![WorldTrace cover](https://i.ibb.co/C51XnqSM/World-Trace.png)
 
 # WorldTrace
 
